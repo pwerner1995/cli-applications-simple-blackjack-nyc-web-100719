@@ -35,9 +35,10 @@ def hit?(cur_total)
   input = get_user_input
   if input == 'h'
     cur_total += deal_card
-  elsif (input != 'h' or input != 's')
+  end 
+  if (input != 'h' or input != 's')
     invalid_command
-    #prompt_user
+    prompt_user
   end
   cur_total
 end
