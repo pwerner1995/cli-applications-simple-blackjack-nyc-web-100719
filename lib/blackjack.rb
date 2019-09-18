@@ -38,6 +38,7 @@ def hit?(cur_total)
   elsif input != 's'
     invalid_command
     prompt_user
+    input= get_user_input
   end
   cur_total
 end
