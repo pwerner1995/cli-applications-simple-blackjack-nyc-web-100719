@@ -58,6 +58,8 @@ def runner
   #display_card_total(total)
   if total >21
     end_game
+  elsif
+    display_card_total(total)
   end 
 end
     
