@@ -38,7 +38,7 @@ def hit?(cur_total)
   end 
   if (input != 'h' or input != 's')
     invalid_command
-    hit?cur_total
+    hit?(cur_total)
   end
   cur_total
 end
